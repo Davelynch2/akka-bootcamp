@@ -12,6 +12,7 @@ namespace WinTail
         {
             // initialize MyActorSystem
             // YOU NEED TO FILL IN HERE
+            MyActorSystem = ActorSystem.Create("MyActorSystem");
 
             PrintInstructions();
 
